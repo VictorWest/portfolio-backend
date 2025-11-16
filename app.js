@@ -10,7 +10,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 app.use(
   cors({
-    origin: "http://localhost:8080",
+    origin: "https://victor-west-portfolio.vercel.app",
   })
 );
 

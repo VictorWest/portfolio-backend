@@ -28,7 +28,7 @@ async function sendEmail(name, email, message) {
   try {
     const { data, error } = await resend.emails.send({
       to: "victorwaribokowest@gmail.com",
-      from: "Victor's Portfolio Message <customerservice@merchlyach.com>",
+      from: "Victor's Portfolio Message <onboarding@resend.dev>",
       subject: "You have a client message",
       text: `
         Name: ${name}
